@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
+.navbar{  
+  box-shadow: 0 4px 10px rgb(0,0,0,0.25);  
+  height: 100px; 
+  width: 100%;
+}
+.navbar ul li {
+  display: inline-block;  
+  position: relative;
+}
+.font-1{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Besley', serif;  
+  color: black;
+}
+.navbar-2 a {
+  text-decoration: none;
+  color: white;  
+  position: relative;  
+}
+.navbar-2{
+  height: 200px;
+}
+.navbar-btn-1{
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 300ms;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.navbar-btn-2{
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 300ms;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.navbar-btn-3{
+  background-color: white;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: unset;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100px;
+  transition: 300ms all;
+}
+.navbar-btn-1:hover{
+  background-color: white;
+  border: 1px solid;
+  color: black;
+}
+.navbar-btn-2:hover{
+  background-color: black;
+  border: 1px solid;
+  color: white;
+}
+.navbar-btn-3:hover{
+  color: rgba(255, 255, 255, 0.938);
+  text-shadow: 0 0 8px black;
+}
+.btn-width-2{
+  width: 50px;
+  margin-right: 20px;
+}
+.img-logo{
+  height: 90px;
+}
+.btn-profile img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: 300ms all;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.btn-profile:hover img{
+  opacity: 0.5;  
+}
+.btn-profile:hover{
+  border: 5px solid black;
+}
+.btn-profile{
+  height: 80px;
+  width: 80px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  background-color: black;
+  border: 5px solid rgb(226, 226, 226);
+  transition: 300ms all;
+}

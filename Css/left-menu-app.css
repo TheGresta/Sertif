@@ -1,0 +1,31 @@
+/* Left Menü */
+.offcanvas-box{
+  height: 100px;
+  box-shadow: 0 4px 10px rgb(0,0,0,0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu li{
+  border-bottom: 1px solid #ddd;
+  width: 111%;
+  transform: translateX(-10%);
+  
+}
+.menu li a{
+  display: block;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'Besley', serif;
+  transition: 300ms all;
+}
+.menu li:hover a{
+  color: white;
+  background-color: black;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
+
+.body{
+  background-color: rgb(259, 259, 259);
+}
+.btn1{
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 300ms;  
+}
+.btn1:hover{
+  background-color: white;
+  border: 1px solid;
+  color: black;
+}

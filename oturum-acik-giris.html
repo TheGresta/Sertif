@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+  <title>Oturum Açık Ana Sayfa</title>
+
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/oturum_acik_giris-app.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/navbar+acik-app.css"/>
+  <link rel="stylesheet" href="css/left-menu-app.css"/>
+
+</head>
+<body>
+  <!-- Top navbar--> 
+  <nav class="navbar bg-white sticky-top d-flex position-fixed">
+    <!-- Toggle Menu -->
+    <div class="col-1 d-flex justify-content-center align-items-center">       
+      <button class="btn float-start text-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft"><i class="fas fa-bars"></i></button>      
+    </div>
+      <!-- Logo -->
+    <div class="col-2 overflow-hidden d-flex">        
+        <img src="./Image/logo.jpg" alt="#" class="img-logo float-start">
+    </div>
+      <!-- Search Box -->
+    <div class="col-5">
+        <form class="d-flex flex-row-reverse w-100">
+          <input class="form-control mr-sm-2" type="search" placeholder="Bir şey yaz..." aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+      <!-- Message and Notif Button -->
+    <div class="col-3 d-flex flex-row-reverse justify-content-center align-items-center">
+        <ul class="list mt-3">        
+          <li><div class="form-row">
+            <!-- Message Box -->
+            <button type="button" class="navbar-btn-3"><i class="fas fa-envelope"></i></button> 
+          </div></li>
+          <!-- Notification Box -->
+          <li><div class="form-row">
+            <button type="button" class="navbar-btn-3 close-navbar-toggler collapsed"><i class="fas fa-bell"></i></button> 
+          </div></li>          
+      </ul>
+    </div>
+      <!-- Profile Menu -->
+    <div class="col-1">
+        <div class="form-row">
+          <button type="button" class="btn-profile">
+            <img src="./Image/4.jpg" alt="">
+          </i></button>
+        </div>
+    </div>    
+  </nav>
+
+  <!-- Profile Sm Box -->
+  <div class="box box-prof-sm">
+    <!-- Prof Img -->
+    <img src="./Image/p/pp.jpg" alt="#">
+    <!-- Online -->
+    <div class="box box-online"></div>
+    <!-- Main Box -->
+    <div class="box box-main">
+    <!-- Name -->
+    <div class="box box-name">
+      <p class="sm-f-1">Mehmet Şenocak</p>
+      <p class="sm-f-2">@sencocak61</p>
+    </div>
+    <!-- Tags -->
+    <div class="box box-sertif">
+      <button type="button">İngilizce</button>
+      <button type="button">Almanca</button>
+      <button type="button">Türkçe</button>
+      <button type="button">JS</button> 
+      <button type="button">C#</button>
+      <button type="button">Java</button> 
+      <button type="button">PHP</button> 
+      <button type="button">Css</button>
+      <button type="button">C++</button> 
+      <button type="button">Visual Studio code</button> 
+      <button type="button">Exel</button>
+      <button type="button">Office</button>  
+      <button type="button">+</button> 
+    </div>
+    <!--  Send Message -->
+    <div class="box box-input-sm">
+      <input type="text" class="form-control" placeholder="@sencocak61 kullanıcısına bir mesaj gönder....">
+    </div>
+    </div>
+
+  </div>
+  
+  <!-- Under navbar-->
+  <nav class="navbar-2 navbar-dark bg-dark visually-hidden">
+      <div class="row-navbar row">
+          <div class="col-md-3 mt-4">
+              <ul class="list-bottom-1 ">
+                  <li><a href="#" class="">Sertif Business</a></li>
+                  <li><a href="#" class="">Sertife Ders oluştur</a></li>
+                  <li><a href="#" class="">Uygulamayı edinin</a></li>
+                  <li><a href="#" class="">Hakkımızda</a></li>
+                  <li><a href="#" class="">İletişim</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3 mt-4">
+              <ul class="list-bottom-1">
+                  <li><a href="#" class="">Kariyer</a></li>
+                  <li><a href="#" class="">Blog</a></li>
+                  <li><a href="#" class="">Yardım ve Destek</a></li>
+                  <li><a href="#" class="">İş Ortaklığı</a></li>                
+              </ul>
+          </div>
+          <div class="col-md-3 mt-4">
+              <ul class="list-bottom-1">
+                  <li><a href="#" class="">Koşullar</a></li>
+                  <li><a href="#" class="">Gizlilik politikası</a></li>
+                  <li><a href="#" class="">Site  Haritası</a></li>                
+              </ul>
+          </div>
+          <div class="col-md-3">
+            <div class="form-row mt-3">
+              <button type="button" class="navbar-btn-2 btn-width-2 fa-pull-right"><i class="fas fa-globe"></i></button> 
+            </div>
+          </div>
+      </div>
+  </nav>
+  <!-- Toggle Menu Canvas-->
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+    <div class="row offcanvas-box">
+      <!-- Toggle Menu Bottom -->
+      <div class="col-3 d-flex justify-content-center align-items-center">
+        <button type="button" class="btn text-black" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-bars"></i></button>      
+      </div>
+      <!-- Toggle Menu Logo -->
+      <div class="col-9 overflow-hidden ">
+        <img src="./Image/lofo-2.jpg" alt="#" class="img-logo float-start">               
+      </div>
+    </div>
+    <!-- Toggle Menu Items -->
+    <div class="menu">
+      <ul>
+        <li>
+          <a href="#" >Anasayfa</a>
+        </li>
+        <li>
+          <a href="#" >Fırsatlar</a>
+        </li>
+        <li>
+          <a href="#" >Sertifika</a>
+        </li>
+        <li>
+          <a href="#" >Dersler</a>
+        </li>
+        <li>
+          <a href="#" >Başvurular</a>
+        </li>
+        <li>
+          <a href="#" >Yardım</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="bootstrap.js"></script>
+</body>
+</html>

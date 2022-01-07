@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
+.navbar{   
+  height: 100px; 
+  width: 100%;
+  border-bottom: 1px solid lightgray;  
+}
+.navbar ul li {
+  display: inline-block;  
+  position: relative; 
+}
+.font-1{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Besley', serif;  
+  color: black;
+}
+.logo{
+  margin-left: 30px;
+}
+.navbar-2 a {
+  text-decoration: none;
+  color: white;  
+  position: relative;  
+}
+.navbar-2{
+  height: 200px;
+}
+.empty-height{
+  height: 100px;
+}
+.navbar-btn-1{
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 300ms;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.navbar-btn-2{
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 300ms;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.navbar-btn-1:hover{
+  background-color: white;
+  border: 1px solid;
+  color: black;
+}
+.navbar-btn-2:hover{
+  background-color: black;
+  border: 1px solid;
+  color: white;
+}
+.btn-width-1{
+  width: 100px;
+}
+.btn-width-2{
+  width: 50px;
+  margin-right: 20px;
+}
+.card-btn-1{
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 60%;
+  background-color: black;
+  color: white;
+  border-radius: 4px;  
+  transition: 300ms;
+  font-weight: bold;
+}
+.card-btn-1:hover{
+  background-color: white;
+  border: 1px solid;
+  color: black;
+}
